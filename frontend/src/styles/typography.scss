@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url("../assets/cerebrisans/cerebrisans-regular.eot");
+    src: url("../assets/cerebrisans/cerebrisans-regular.eot?#iefix")
+            format("embedded-opentype"),
+        url("../assets/cerebrisans/cerebrisans-regular.woff") format("woff"),
+        url("../assets/cerebrisans/cerebrisans-regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url("../assets/cerebrisans/cerebrisans-medium.eot");
+    src: url("../assets/cerebrisans/cerebrisans-medium.eot?#iefix")
+            format("embedded-opentype"),
+        url("../assets/cerebrisans/cerebrisans-medium.woff") format("woff"),
+        url("../assets/cerebrisans/cerebrisans-medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url("../assets/cerebrisans/cerebrisans-semibold.eot");
+    src: url("../assets/cerebrisans/cerebrisans-semibold.eot?#iefix")
+            format("embedded-opentype"),
+        url("../assets/cerebrisans/cerebrisans-semibold.woff") format("woff"),
+        url("../assets/cerebrisans/cerebrisans-semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.text-light {
+    color: $text-light;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin-bottom: 36px;
+}
+
+label {
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 22.5px;
+    margin-bottom: 8px !important;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 12px;
+    letter-spacing: -0.64px;
+}

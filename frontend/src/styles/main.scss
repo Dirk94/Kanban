@@ -1,3 +1,12 @@
-h1 {
-    color: red !important;
+@import "./variables.scss";
+
+@import "~bulma";
+
+html,
+body,
+#app {
+    height: 100%;
 }
+
+@import "./typography.scss";
+@import "./forms.scss";
