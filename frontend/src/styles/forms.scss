@@ -6,3 +6,8 @@
     font-size: 15px !important;
     padding: 20px 12px !important;
 }
+
+// Validation messages in forms have no bottom margin.
+p.help {
+    margin-bottom: 0;
+}
