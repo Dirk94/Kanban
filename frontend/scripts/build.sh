@@ -8,8 +8,12 @@
 # Run the production build.
 npx vue-cli-service build
 
-# Move the files to the right Laravel folders.
+rm ../resources/views/vue-application.blade.php
 mv ./dist/index.html ../resources/views/vue-application.blade.php
+
+rm -rf ../public/css
+rm -rf ../public/js
+rm -rf ../public/img
 mv ./dist/* ../public
 
 # Remove the build folder.
